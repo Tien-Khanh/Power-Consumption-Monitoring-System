@@ -38,6 +38,11 @@ public class LoginController extends HttpServlet {
                 req.getRequestDispatcher("login.jsp").forward(req, res);
                 return;
             }
+            if ("INACTIVE".equals(user.getStatus())) {
+                req.setAttribute("error", "INACTIVE ACCOUNT!");
+                req.getRequestDispatcher("login.jsp").forward(req, res);
+                return;
+            }
             req.getSession().setAttribute("LOGIN_USER", user);
             new AuditDao().append(user.getUserId(), "LOGIN", "USER", user.getUserId(), null);
             res.sendRedirect("DashboardController");

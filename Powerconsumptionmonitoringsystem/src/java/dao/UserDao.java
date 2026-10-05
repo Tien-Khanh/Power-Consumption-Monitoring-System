@@ -168,10 +168,10 @@ public class UserDao {
     }
 
     public User checkLogin(String username, String password) throws SQLException {
-        String sql = "SELECT u.user_id, u.username, u.password_hash, u.full_name, r.role_name "
+        String sql = "SELECT u.user_id, u.username, u.password_hash, u.full_name, u.status, r.role_name "
                 + "FROM Users u JOIN UserRole ur ON u.user_id = ur.user_id "
                 + "JOIN Roles r ON r.role_id = ur.role_id "
-                + "WHERE u.username = ? AND u.status = 'ACTIVE'";
+                + "WHERE u.username = ?";
         try ( Connection conn = DbContext.getConnection();  PreparedStatement ps = conn.prepareStatement(sql)) {
             ps.setString(1, username);
             try ( ResultSet rs = ps.executeQuery()) {
@@ -181,6 +181,7 @@ public class UserDao {
                     user.setUsername(rs.getString("username"));
                     user.setPasswordHash(rs.getString("password_hash"));
                     user.setFullName(rs.getString("full_name"));
+                    user.setStatus(rs.getString("status"));
                     user.setRoleName(rs.getString("role_name"));
                     return user;
                 }
