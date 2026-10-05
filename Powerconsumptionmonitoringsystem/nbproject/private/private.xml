@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/web/login.jsp</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/src/java/controller/LoginController.java</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/src/java/dao/UserDao.java</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/src/java/controller/LogoutController.java</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/web/register.jsp</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/web/nilm_list.jsp</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/web/dashboard.jsp</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/src/java/controller/RegisterController.java</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/src/java/controller/DashboardController.java</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/src/java/controller/ApplianceController.java</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/src/java/util/HashGen.java</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/src/java/model/User.java</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/src/java/util/SecurityUtils.java</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/src/java/util/DbContext.java</file>
+            <file>file:/C:/Users/hoanh/OneDrive/Desktop/PRJ301/Powerconsumptionmonitoringsystem/src/java/dao/AuditDao.java</file>
+        </group>
+    </open-files>
+</project-private>
